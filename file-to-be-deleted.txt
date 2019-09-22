@@ -1,0 +1,6 @@
+This is a test file.
+Exists in master branch.
+We will create a new branch, branch-with-deleted-file, from here and keep the file there.
+Next, we switch back to master, delete this file and push again to master.
+Later, switching to "branch-with-deleted-file" and merging master should show this file as deleted.
+We will recover the file using 'checkout --ours <filename>' switch.
